@@ -1,0 +1,17 @@
+public class Practice13 {
+    public void najim()
+    {
+        System.out.println("the name is guu");
+    }
+    public int nj(int x)
+    {
+        return 5 + x;
+
+    }
+  public static void main(String[] args)
+    {
+        Practice13 jim= new Practice13();
+        jim.najim();
+        System.out.println("The number is: " + jim.nj(12));
+    }
+}
